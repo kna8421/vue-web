@@ -1,0 +1,14 @@
+@import "./style.scss";
+
+.circle{
+    @include size(80px,80px);
+    background-color: rgba(237, 237, 237, 0.4);
+    position: fixed;
+    top: 85vh;
+    right: 50px;
+    border-radius: 50%;
+    @include flex(center,center);
+    cursor: pointer;
+    font-size: 24px;
+    opacity: .6;
+}

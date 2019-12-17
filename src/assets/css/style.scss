@@ -1,0 +1,33 @@
+$color_yellow: rgb(239, 184, 55);
+$color_dark:#343a40;
+$color_dark_gray:rgb(128, 128, 128);
+$color_light_gray:rgb(186, 186, 186);
+$color_gray:#f4f4f4;
+$color_light_green:#11b5a4;
+$color_light_blue:#02558d;
+$color_brown:#c39f76;
+$color_white:#fff;
+$color_black:#1e242a;
+$color_green:#99cc00;
+$color_light_yellow:#efcf64;
+
+$color_main_blue:#155765;
+$color_main_olive:#57652A;
+$color_main_ornate:#ab9353;
+$color_main_plum:#4d2c3d;
+
+@mixin size($w,$h){
+    width: $w;
+    height: $h;
+}
+@mixin flex($j,$ac){
+    display: flex;
+    justify-content: $j;
+    align-items: $ac;
+}
+@mixin nameInForm($w) {
+    width: $w;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

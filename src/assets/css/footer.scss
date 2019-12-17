@@ -1,0 +1,26 @@
+@import "./style.scss";
+
+.footer {
+    background-color: $color_main_plum;
+    //#B49082;
+    padding-top: 30px;
+    padding-bottom: 65px;
+    color:white;
+  }
+  
+  .title {
+    color: #fff;
+  }
+  
+  .description {
+    color: #fff;
+  }
+  
+  .footerlink
+  {
+    color: white;
+  }
+  .footerlink:hover {
+    transition:.2s;
+    color: rgb(226, 215, 215);
+  }

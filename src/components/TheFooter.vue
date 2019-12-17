@@ -31,24 +31,3 @@ export default {
 };
 </script>
 
-
-<style scoped>
-.footer {
-  background-color: #B49082;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
-}
-
-.title {
-  color: #fff;
-}
-
-.description {
-  color: #fff;
-}
-
-.footerlink,
-.footerlink:hover {
-  color: #fff;
-}
-</style>
