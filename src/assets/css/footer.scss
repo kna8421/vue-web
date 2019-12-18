@@ -1,12 +1,79 @@
 @import "./style.scss";
 
-.footer {
-    background-color: $color_main_plum;
-    //#B49082;
-    padding-top: 30px;
-    padding-bottom: 65px;
-    color:white;
+#footer {
+  bottom: 0;
+    width: 100%;
+    height: 95px;
+    background-color:$color_main_plum;
+    font-size: 12px;
+  display: block;
+  width: 100%;
+  color:white;
+
+  .site-info {
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+    float: left;
   }
+
+  .links
+  {
+    position: relative;
+    float: right;
+    height: 15px;
+    margin: 40px 20px;
+  }
+
+}
+
+.footerlink {
+  display: block;
+  position: relative;
+  line-height: 15px;
+  text-transform: uppercase;
+  float: left;
+  margin-right: 15px;
+  color: white;
+  }
+
+ 
+  .footerlink:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background: White;
+    visibility: hidden;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .25s linear;
+  }
+
+  .footerlink:hover:before,
+  .footerlink:focus:before
+   {
+    visibility: visible;
+    transform: scaleX(1);
+    text-decoration: white;
+  }
+
+.footer{
+  position: absolute;
+  line-height: 95px;
+  
+}
+
+
+// .footer {
+//     background-color: $color_main_plum;
+//     //#B49082;
+//     padding-top: 30px;
+//     padding-bottom: 65px;
+//     color:white;
+//   }
   
   .title {
     color: #fff;
@@ -16,11 +83,12 @@
     color: #fff;
   }
   
-  .footerlink
-  {
-    color: white;
-  }
+  // .footerlink
+  // {
+  //   color: white;
+  // }
   .footerlink:hover {
     transition:.2s;
-    color: rgb(226, 215, 215);
+    color: white; 
+    //rgb(226, 215, 215);
   }

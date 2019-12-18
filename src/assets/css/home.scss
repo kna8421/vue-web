@@ -2,13 +2,38 @@
 
 .circle{
     @include size(80px,80px);
-    background-color: rgba(237, 237, 237, 0.4);
+    background-color: $color_main_olive;
+    //rgba(237, 237, 237, 0.4);
     position: fixed;
-    top: 85vh;
-    right: 50px;
+    top: 65vh;
+    right: 40px;
     border-radius: 50%;
     @include flex(center,center);
     cursor: pointer;
     font-size: 24px;
-    opacity: .6;
+    opacity: .5;
 }
+
+#Nav {
+    background-color: $color_main_plum;
+    color:white;
+}
+
+.nav a{
+    color:white;
+}
+.skipLink a {
+    position: absolute;
+    left: -100px;
+    top: -100px;
+  }
+  
+  .skipLink a:focus {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: $color_main_ornate;
+    //background: #000000;
+  }

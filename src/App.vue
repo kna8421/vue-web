@@ -11,7 +11,7 @@
 <script>
 import TheNavBar from "@/components/TheNavBar.vue";
 import TheFooter from "@/components/TheFooter.vue";
-// import About from "@/components/About.vue";
+ import About from "@/components/About.vue";
 import Top from '@/components/Top.vue';
 
 export default {

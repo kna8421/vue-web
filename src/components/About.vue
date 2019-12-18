@@ -1,7 +1,8 @@
 <template>
 <about> 
     <div>
-  <b-card
+        <h1>About</h1>
+  <!-- <b-card
     title="Card Title"
     img-src="https://picsum.photos/600/300/?image=25"
     img-alt="Image"
@@ -15,7 +16,7 @@
     </b-card-text>
 
     <b-button href="#" variant="primary">Go somewhere</b-button>
-  </b-card>
+  </b-card> -->
 </div>
 </about>
 </template>  
